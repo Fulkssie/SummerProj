@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import easygui
 plt.rcParams["image.cmap"] = "binary"
 
-cellNum = 300
-steps = 150
+cellNum = 600
+steps = 600
 
 initial = np.zeros(cellNum)
 initial[cellNum // 2] = 1
